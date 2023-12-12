@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://growigh.com/sitemap.xml
