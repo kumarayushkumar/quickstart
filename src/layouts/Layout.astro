@@ -12,8 +12,8 @@ const { title } = Astro.props
     <title>{title}</title>
 
     <meta charset="UTF-8" />
-    <meta name="description" content="" />
     <meta name="keywords" content="" />
+    <meta name="description" content="" />
     <meta name="author" content="Growigh" />
     <meta
       name="viewport"
@@ -22,28 +22,26 @@ const { title } = Astro.props
     <meta name="robots" content="index, follow" />
 
     <!-- Open Graph (OG) Meta Tags -->
-    <meta name="og:title" content="Growigh" />
-    <meta name="og:type" content="website" />
-    <meta name="og:image" content="" />
-    <meta name="og:url" content="https://www.growigh.com/" />
-    <meta name="og:description" content="" />
     <meta name="og:site_name" content="Growigh" />
+    <meta name="og:title" content={title} />
+    <meta name="og:type" content="website" />
+    <meta name="og:image" content="https://www.growigh.com/assets/image.jpg" />
+    <meta name="og:url" content="https://www.growigh.com" />
+    <meta name="og:description" content="" />
 
     <!-- Twitter Card Meta Tag -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@wearegrowigh" />
-
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
-    <!-- Sitemap Link -->
-    <link rel="sitemap" href="/sitemap.xml" />
+    <meta name="twitter:creator" content="@wearegrowigh" />
 
     <!-- Apple Meta Tags -->
-    <link rel="apple-touch-icon" sizes="180x180" href="touch-icon-iphone.png" />
     <meta name="apple-mobile-web-app-title" content="Growigh" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
+    <link rel="apple-touch-icon" sizes="180x180" href="touch-icon-iphone.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="sitemap" href="/sitemap.xml" />
     <link rel="canonical" href="https://www.growigh.com/" />
   </head>
   <body>
