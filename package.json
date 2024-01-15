@@ -8,17 +8,19 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "fw": "prettier --write ."
+    "fw": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
-    "@astrojs/check": "^0.3.2",
-    "@sentry/astro": "^7.88.0",
-    "@spotlightjs/astro": "^1.0.6",
-    "astro": "^4.0.4",
-    "typescript": "^5.3.3"
+    "astro": "^4.1.2"
   },
   "devDependencies": {
-    "prettier": "^3.1.1",
-    "prettier-plugin-astro": "^0.12.2"
+    "@astrojs/check": "^0.4.1",
+    "@sentry/astro": "^7.93.0",
+    "@spotlightjs/astro": "^1.0.9",
+    "husky": "^8.0.3",
+    "prettier": "^3.2.2",
+    "prettier-plugin-astro": "^0.12.3",
+    "typescript": "^5.3.3"
   }
 }
